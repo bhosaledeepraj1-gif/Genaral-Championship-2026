@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Championship 2026</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body, html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+    header {
+      /* background-color: #4CAF50;
+      color: white;
+      padding: 20px 0; */
+      height: 220px;
+      margin-top: 0px;
+      background-size: cover;
+      background-image: url(images/1675408704166.jpg);
+      color: white;
+      padding: 45px 0;
+    }
+    
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .table {
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow-x:auto;
+      /* text-align: center; */
+    }
+    .table th {
+      background-color: #bd07fa;
+      color: white;
+    }
+    .table-striped tbody tr:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+    .about {
+      font-size: 18px;
+    }
+
+     /* Container to position text over image */
+     .image-container {
+      position: relative;
+      width: 100%; /* Adjust as needed */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Image styling */
+    .image-container img {
+      /* width: 100%; */
+      /* height: 100%; */
+      object-fit: cover; /* Ensures the image covers the container */
+    }
+
+    /* Text styling */
+    .image-container h3 {
+      position: absolute; /* Positions text over the image */
+      top: 50%; /* Centers vertically */
+      left: 50%; /* Centers horizontally */
+      transform: translate(-50%, -50%); /* Perfectly centers the text */
+      color: gold; /* Golden color */
+      font-size: 20px; /* Adjust size as needed */
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for better visibility */
+      text-align: center;
+      z-index: 2; /* Ensures text is above the image */
+    }
+
+     /* Marquee Text */
+     .marquee-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ff7800; /* Golden text color */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="text-center">
+    <h1 class="mb-0" style="font-weight: 700;">General Championship 2026 </h1>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-dark" style="background-color: #d8d8d8 !important; ">
+    <div class="container-fluid content">
+      <a class="navbar-brand" href="#">
+        <img src="images/cup-removebg-preview.png" alt="" width="30" height="30" class="d-inline-block align-text-top" style="color: white;">
+        GC-2026
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#dashboard">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scoreboard">Scoreboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#results">Match Results</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    
+    <div class="image-container">
+      <img src="images/winner.gif" alt="Golden Celebration" width="100%" height="100%" class="d-inline-block align-text-top">
+      <div class="overlay"></div>
+      
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+
+      <p class="about">
+
+</p>
+    </section>
+
+    
+
+    <!-- Dashboard Section --> 
+    <section id="dashboard" class="mb-4">
+      <h2 class="mb-3">Dashboard <i class="bi bi-calendar3-range"></i></h2>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr> 
+            <th><b>Teams</b></th>
+            <th><b>GC Points</b></th>
+          </tr>
+        </thead>
+        <tbody> <b>
+          <!-- 1 -->
+          <tr>
+            <td>4<sup>th</sup> yr - Shiledar</td>
+            <td>55 points</td>
+          </tr>
+          <!-- 2 -->
+          <tr>
+            <td>2<sup>nd</sup> yr - Yoddha</td>
+            <td>32 points</td>
+          </tr>
+          <!-- 5 -->
+  <tr>
+            <td>3<sup>rd</sup> yr - Aarambh</td>
+            <td>26 points</td>
+          </tr>
+          <tr>
+            <td>1<sup>st</sup> yr Old - Arjuna</td>
+            <td>26 points</td>
+          </tr>
+          <!-- 3 -->
+        
+          <!-- 4 -->
+          <tr>
+            <td>1<sup>st</sup> yr New - Garuda</td>
+            <td>16 points</td>
+          </tr>
+          <!-- 6 -->
+          <tr> 
+            <td>Interns - Karna</td>
+            <td>13 points</td>
+          </tr> </b>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Scoreboard Section -->
+    <section id="scoreboard" class="mb-4">
+      <h2 class="mb-3">Scoreboard</h2>
+      <div style="overflow-x:auto;">
+        <table class="table table-striped table-bordered">
+          <thead>
+            <tr> <b>
+              <th>Sport</th>
+              <th></th>
+              <th>Shiledar</th>
+              <th>Yoddha</th>
+              <th>Aarambh</th>
+              <th>Arjuna</th>
+              <th>Garuda</th>
+              <th>Karna</th> 
+            </tr>
+          </thead>
+          <tbody>
+            <!-- chess -->
+            <tr>
+              <td rowspan="2">Chess</td>
+              <td>G</td>
+              <td>10 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>5 Points</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td></td>
+              <td>15 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+  
+            <!-- carrom -->
+            <tr>
+              <td rowspan="2">Carrom</td>
+              <td>G</td>
+              <td></td>
+              <td>10 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>5 Points</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>5 Points</td>
+              <td></td>
+              <td>10 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+  
+            <!-- shotput -->
+            <tr>
+              <td rowspan="2">Shotput</td>
+              <td>G</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <!-- Discus -->
+            <tr>
+              <td rowspan="2">Discus Throw</td>
+              <td>G</td>
+              <td>5 Points</td>
+              <td>10 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td>10 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>5 Points</td>
+            </tr>
+  
+            <!-- Kabbadi -->
+            <tr>
+              <td rowspan="2">Kabbadi</td>
+              <td>G</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+  
+            <!-- Kho Kho -->
+            <tr>
+              <td rowspan="2">Kho Kho</td>
+              <td>G</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+  
+            <!-- Relay -->
+            <tr>
+              <td rowspan="2">Relay</td>
+              <td>G</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+  
+            <!-- Athletics - 100*4-Relay -->
+            <tr>
+              <td rowspan="2">Athletics - 100*4-Relay</td>
+              <td>G</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+  
+            <!-- Cricket -->
+            <tr>
+              <td rowspan="2">Cricket</td>
+              <td>G</td>
+              <td>10 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>5 Points</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>10 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>5 Points</td>
+              <td></td>
+            </tr>
+  
+            <!-- Badminton -->
+            <tr>
+              <td rowspan="2">Bad minton</td>
+              <td>G</td>
+              <td>10 Points</td>
+              <td></td>
+              <td>5 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td></td>
+              <td>5 Points</td>
+              <td></td>
+              <td></td>
+              <td>10 points</td>
+            </tr>
+  
+            <!-- Dodge Ball -->
+            <tr>
+              <td>Dodge Ball</td>
+              <td>G</td>
+              <td>10 Points</td>
+              <td></td>
+              <td>5 Points</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <!-- Volley ball -->
+            <tr>
+              <td rowspan="2">Volley Ball</td>
+              <td>G</td>
+              <td></td>
+              <td>10 Points</td>
+              <td></td>
+              <td></td>
+              <td>5 Points</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>5 Points</td>
+              <td>10 Points</td>
+            </tr> 
+            
+          </tbody>
+        </table>
+      </div>
+      
+    </section>
+    
+    <!-- Match Results Section -->
+    <section id="results" class="mb-4">
+        <h2 class="mb-3">Match Results</h2>
+       <b> <div style="overflow-x:auto;">
+          <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Sport</th>
+                <th></th>
+                <th>Winner</th>
+                <th>Runner up</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+  
+            
+            
+  
+            <!-- Cricket -->
+            <tr>
+              <td rowspan="2">29/01/26</td>
+              <td rowspan="2">Cricket</td>
+              <td>G</td>
+              <td>Shiledar</td>
+              <td>Karna</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Shiledar</td>
+              <td>Garuda</td>
+            </tr>
+            <!-- Discuss -->
+            <tr>
+              <td rowspan="2">29/01/26</td>
+              <td rowspan="2">Discuss</td>
+              <td>G</td>
+              <td>Yoddha</td>
+              <td>Shiledar</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Yoddha</td>
+              <td>Karna</td>
+            </tr>
+  <!-- volley ball -->
+            <tr>
+              <td rowspan="2">09/02/25</td>
+              <td rowspan="2">Volley Ball</td>
+              <td>G</td>
+              <td>Yoddha</td>
+              <td>Garuda</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Karna</td>
+              <td>Garuda</td>
+            </tr>
+            <!-- chess -->
+            <tr>
+              <td rowspan="2">30/01/26</td>
+              <td rowspan="2">Chess</td>
+              <td>G</td>
+              <td>Shiledar</td>
+              <td>Karna</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Aarambh</td>
+              <td>Aarambh</td>
+            </tr>
+  
+            <!-- carrom -->
+            <tr>
+              <td rowspan="2">30/01/26</td>
+              <td rowspan="2">Corrom</td>
+              <td>G</td>
+              <td>Yoddha</td>
+              <td>Karna</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Aarambh</td>
+              <td>Shiledar</td>
+            </tr>
+
+            <!-- Badminton -->
+            <tr>
+              <td rowspan="2">31/01/26</td>
+              <td rowspan="2">Badminton</td>
+              <td>G</td>
+              <td>Shiledar</td>
+              <td>Aarambh</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Karna</td>
+              <td>Aarambh</td>
+            </tr>
+  
+            <!-- Dodge Ball -->
+            <tr>
+              <td>31/01/26</td>
+              <td>Dodge Ball</td>
+              <td>G</td>
+              <td>Shiledar</td>
+              <td>Aarambh</td>
+            </tr>
+             <!-- Kabbadi -->
+            <tr>
+              <td rowspan="2">01/02/26</td>
+              <td rowspan="2">Kabbadi</td>
+              <td>G</td>
+              <td>Yoddha</td>
+              <td>Aarambh</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Yoddha</td>
+              <td>Aarambh</td>
+            </tr>
+  
+            <!-- Kho Kho -->
+            <tr>
+              <td rowspan="2">01/02/26</td>
+              <td rowspan="2">Kho Kho</td>
+              <td>G</td>
+              <td>Aarambh</td>
+              <td>Karna</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Aarambh</td>
+              <td>Arjuna</td>
+            </tr>
+  
+            <!-- Athletics - 100m -->
+            <tr>
+              <td rowspan="2">01/02/26</td>
+              <td rowspan="2">Athletics - 100m</td>
+              <td>G</td>
+              <td>Aarambh</td>
+              <td>Karna</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Shiledar</td>
+              <td>Aarambh</td>
+            </tr>
+            <!-- Shotput -->
+            <tr>
+              <td rowspan="2">01/02/26</td>
+              <td rowspan="2">Shotput</td>
+              <td>G</td>
+              <td>Shiledar</td>
+              <td>Arjuna</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Karna</td>
+              <td>Yoddha</td>
+            </tr>
+  
+           
+  
+            <!-- Relay -->
+            <tr>
+              <td rowspan="2">01/02/26</td>
+              <td rowspan="2"> Relay</td>
+              <td>G</td>
+              <td>Arjuna</td>
+              <td>Yoddha</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Arjuna</td>
+              <td>Karna</td>
+            </tr> </b>
+            
+            
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <p class="mb-0"><small>© 2025 General championship Sports Event. Developed by Deepraj</small></p>
+  </footer>
+
+  <!-- Bootstrap 5 JS (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body></html>
